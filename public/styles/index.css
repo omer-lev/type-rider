@@ -29,9 +29,10 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 nav {
+    margin: 0 5rem;
     height: var(--nav-height);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #222c314d;
 }
@@ -51,6 +52,10 @@ nav .logo a span {
 nav .logo a i {
     margin-right: .3rem;
     font-size: 1.9rem;
+}
+
+nav .links {
+    visibility: hidden;
 }
 
 nav .links a i {
