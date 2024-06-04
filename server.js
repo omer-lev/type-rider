@@ -15,5 +15,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Listening on port: ${PORT}`.magenta);
+    console.log(`Listening on port: ${PORT || 8000}`.magenta);
 });
